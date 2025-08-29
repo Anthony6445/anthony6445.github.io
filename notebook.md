@@ -22,7 +22,7 @@ Uses the Dort programming language.
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           | Basic building block of a Flutter app. Everything is a widget  Text, Image, Container, Colum                                                 |                                           |
+| Widget           | Basic building block of a Flutter app. Everything is a widget  Text, Image, Container, Colum        |            I just need text in this column too               |
 | MaterialApp      |                                                  |                                           |
 | Scaffold         |                                                  |                                           |
 | StatelessWidget  |                                                  |                                           |
