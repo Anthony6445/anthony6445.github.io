@@ -14,3 +14,6 @@ collaboration, project management,communication, or technical skills will help m
 breakfast,brush my teeth regulary, and getting all my school work done. Then lastly is eating snacks or dinner like rice with chicken. I have two dogs, one a male called Scooby Doo, and another one a female called Diana.
 
 
+
+<img width="183" height="275" alt="image" src="https://github.com/user-attachments/assets/86b18618-b85a-4ef9-9c12-9b77bbc8db9b" />
+
