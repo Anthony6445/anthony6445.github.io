@@ -13,6 +13,7 @@ to my lifestyle goals as this career needs communication like teams, computer da
 collaboration, project management,communication, or technical skills will help me succeed as it will help me become more mature and pass all my goals, which it will make me become sucessful in life. My daily life style is to get enough sleep everyday, eat healthy
 breakfast,brush my teeth regulary, and getting all my school work done. Then lastly is eating snacks or dinner like rice with chicken. I have two dogs, one a male called Scooby Doo, and another one a female called Diana.
 
+<img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/82321675-b109-4f85-9873-da3a95cd5ea8" />
 
 
 <img width="183" height="275" alt="image" src="https://github.com/user-attachments/assets/86b18618-b85a-4ef9-9c12-9b77bbc8db9b" />
