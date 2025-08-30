@@ -22,14 +22,14 @@ Uses the Dort programming language.
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           | Basic building block of a Flutter app. Everything is a widget  Text, Image, Container, Colum        |            I just need text in this column too               |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
-| Column           |  vertical layout                                 |                                           |
+| Widget           | Basic building block of a Flutter app. Everything is a widget.          |            Text, Image, Container, Colum               |
+| MaterialApp      |  The root of the app. Sets up routes and themes.                                               | Found in main. dart                                           |
+| Scaffold         |  Provides basic visual layout-like a header,body, floating button     |                         Each screen uses it                     |                                           |
+| StatelessWidget  |  A widget that doesn't change                                               |  Most of the screen files                                         |
+| StatefulWidget   |  A widget that can change over time                                               | Used in MyHomePage()                                          |
+| Navigator        |  Manages screen transitions                                               |Navigator.pushNamed(context, '/page2');                                           |
+| AppBar           |  Top navigation bar                                               | Title of each page appears here                                          |
+| Column           |  vertical layout                                 |                                          |
 | Row              | horizontal layout                                |                                           |
 | Container        |  wraps content with padding, margin, or color    |                                           |
 | Text             |  displays text                                   |                                           |
