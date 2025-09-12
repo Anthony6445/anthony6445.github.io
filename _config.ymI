@@ -3,4 +3,4 @@ description: >-
          This is my portfolio showcasing my projects and skills.
 baseurl: ""
 url: "https://anthony6445.github.io" 
-theme: jekyll-theme-architect
+theme: jekyll-theme-merlot
