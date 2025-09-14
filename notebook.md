@@ -69,7 +69,7 @@ Uses the Dort programming language.
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|------------|
 | variable     | A named container used to store a value that may change. | `var x = 5;` |Weight is 125  | app example later |
-| constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
+| constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |The 7 days in a week never changes.  |  |
 | Data Type     | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` | Age vs Words in a sentence. |  |
 | String     | A sequence of characters used to represent words or text. | `"Hello World"` |A title  |  |
 | Integer    | Whole number values. | `int age = 16;` |Seeing your health score number from 100 - 0  |  |
