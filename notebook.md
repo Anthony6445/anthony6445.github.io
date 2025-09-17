@@ -6,7 +6,7 @@ At the top, begin a table of contents, Ex.:
   - [What is Flutter?](#what-is-flutter)
   - [Key Terms and Definitions](#key-terms-and-definitions)
   - [Layout and Design Widgets](layout-and-design-widgets)
-  - [Definitions with Structure](#flutter-definitions)
+  - [Flutter Definitions with Structures ](#flutter-definitions)
 - [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
@@ -50,7 +50,7 @@ Uses the Dort programming language.
 - How do you align something to the left or right?
 - What widget adds space around content?
 
-## Flutter Definitions with structures
+## Flutter Definitions with Structures
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 
@@ -58,7 +58,7 @@ Uses the Dort programming language.
 
 | Main     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |Opening an app on your phone.  |  |
 
-| MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
+| MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |The table of contents located in a book since it sets up how you move through different sections.  |  |
 
 | Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |The table you are putting your definitions in.  |  |
 
@@ -66,7 +66,7 @@ Uses the Dort programming language.
 
 | Row     | A widget that shows things side-by-side. | `Row(...)` |Putting things side by side.  |  |
 
-|Container      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
+|Container      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A lunchbox holding foods inside and you can decorate it, or change the other things that makes the lunchbox look different on its own design.  |  |
 
 |      | A widget to display text on the screen. | `Text('Hello')` |  |  |
 
