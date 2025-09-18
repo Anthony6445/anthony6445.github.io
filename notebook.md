@@ -56,11 +56,13 @@ Uses the Dort programming language.
 
 |------|----------------------------|----------------|-------------------|-------------|
 
-| Main     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |Opening an app on your phone.  |  |
+| Main     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |Opening an app on your phone.  |in main.dart, void main () => runapp(MyPortfolioApp());  |
 
-| MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |The table of contents located in a book since it sets up how you move through different sections.  |  |
+| MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |The table of contents located in a book since it sets up how you move through different sections.  |return MaterialApp(debugShowCheckedModeBanner: false, title: 'TSA Portfolio', theme: ThemeData(  |
 
-| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |The table you are putting your definitions in.  |  |
+| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |The table you are putting your definitions in.  |return Scaffold(
+      body: Column(mainAxisAlignment: MainAxisAlignment.start,children: [  |
+ 
 
 | Columns     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |Stacking things up.  |  |
 
@@ -68,37 +70,37 @@ Uses the Dort programming language.
 
 |Container      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |A lunchbox holding foods inside and you can decorate it, or change the other things that makes the lunchbox look different on its own design.  |  |
 
-|      | A widget to display text on the screen. | `Text('Hello')` |  |  |
+| Text     | A widget to display text on the screen. | `Text('Hello')` |Writing a message to your mom.  |  |
 
-|      | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
+| Image Network     | A widget to show an image using a link from the internet. | `Image.network('https://...')` |Google images  |  |
 
-|      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
+| Elevated Button     | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |Clicking on the keyboard while texting.  |  |
 
-|      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
+| onPressed     | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |Text is being written after tapping on your keyboard.  |  |
 
-|      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
+| StatelessWidget     | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |Like a screen on your homepage.  |  |
 
-|      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+| Statefullwidget     | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |When you submit an assignment and you get a confirm page.  |  |
 
-|      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+| Navigator     | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |Going to your about page.  |  |
 
-|      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+|Padding      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |Making more space for your living room.  |  |
 
-|      | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
+|Center      | Aligns content in the center of the screen or container. | `Center(child: ...)` |Title in the center of your app.  |  |
 
-|      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
+|Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
 
-|      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+|Override      | This marks a method as one that’s replacing a method in a parent class. | `@override` |Making our own build method.  |  |
 
-|      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+|Build      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
 
-|      | Required in every widget class to describe what to show. | `build` |  |  |
+| Build     | Required in every widget class to describe what to show. | `build` |  |  |
 
-|      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+| BuildContext     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
 
-|      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+| Super.key     | A keyword used to pass a value to the parent widget. | `super.key` |Emailing your teacher.  |  |
 
-|      | A keyword that means the value won't change and is set once. | `const` |  |  |
+|Const      | A keyword that means the value won't change and is set once. | `const` |Title  |  |
 
 
 
@@ -118,9 +120,9 @@ Uses the Dort programming language.
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|------------|
-| variable     | A named container used to store a value that may change. | `var x = 5;` |Weight is 125  | app example later |
-| constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |The 7 days in a week never changes.  |  |
-| Data Type     | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` | Age vs Words in a sentence. |  |
+| variable     | A named container used to store a value that may change. | `var x = 5;` |Weight is 125  |title: 'TSA Portfolio'  |
+| constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |The 7 days in a week never changes.  |main.dart, const MyPortfolioApp ({super.key)  |
+| Data Type     | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` | Age vs Words in a sentence. |main.dart,bool,debugShowCheckedModeBanner:false  |
 | String     | A sequence of characters used to represent words or text. | `"Hello World"` |A title  |  |
 | Integer    | Whole number values. | `int age = 16;` |Seeing your health score number from 100 - 0  |  |
 | Double     | Number values with decimals. | `double age = 16.2;` |Calculations  |  |
