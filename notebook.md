@@ -6,7 +6,7 @@ At the top, begin a table of contents, Ex.:
   - [What is Flutter?](#what-is-flutter)
   - [Key Terms and Definitions](#key-terms-and-definitions)
   - [Layout and Design Widgets](layout-and-design-widgets)
-  - [Flutter Definitions with Structures ](#flutter-definitions)
+  - [Flutter Definitions with Structures ](#flutter-definitions-with-structures)
 - [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
