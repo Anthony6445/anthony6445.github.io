@@ -141,8 +141,16 @@ Uses the Dort programming language.
 | Abstraction     | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |We hit A and the cumputer shows it as 32.  |  |
 | Override     | Changing how a built-in or inherited function behaves. | `@override` |You have characters and they all run the same and you override so you can see what happens between them.  |  |
 | Void     | A function that does not return a value. | `void printMessage() {}` |You turn the lights on but you don't get anything back.  |  |
-
-
+| Scanner | Creates a scanner object to take input from user | Scanner in = new Scanner(System.in);  |||
+|import Scanner | Gives access to Scanner class, required at top | import java.util.Scanner;  |||
+|print line statement | prints what's in the parenthesis, adds line after |  |||
+|print statement  | prints the content in the parenthesis  |  |||
+|input nextLine  |  |  |||
+|input nextInt  |  |  |||
+|input nextDouble|||||
+|input nextBoolean|||||
+|Arithmetic operators|||||
+|Compound operators (applies the result to the variable)|||||
 
 
 
