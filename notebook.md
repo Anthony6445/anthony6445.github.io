@@ -151,9 +151,11 @@ Uses the Dort programming language.
 | input nextBoolean |  reads in a boolean (true/false) from the user | input.nextBoolean(); |||
 | Arithmetic operators | -       *       /      % (modulus, returns the remainder from dividing) ||||
 | Compound operators (applies the result to the variable) | +=      -=       *=      /=     %=   ++ (adds 1)||||
-| Maximum int |The max value an int can hold: 2147483647 | Integer.Max_Value  |
+| Maximum int |The max value an int can hold: 2147483647 | Integer.Max_Value  | | | 
 |Minimum int | The minimum value an int can hold: -2147483648 | Integer.MIN_VALUE | | | 
 | integer overflow | Integer.Max_Value + 1 == MIN_Value, it wraps around ||||
+| Integer underflow | Integer.MIN_VALUE-1 == MAX_VALUE, it wraps around | | | | 
+| round-off error | an approx. of the actual value, result is rounded to the nearest value that fits within the available bits | | | |
 
 
 
