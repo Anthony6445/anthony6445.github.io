@@ -8,6 +8,7 @@ At the top, begin a table of contents, Ex.:
   - [Layout and Design Widgets](layout-and-design-widgets)
   - [Flutter Definitions with Structures ](#flutter-definitions-with-structures)
 - [Code Definitions](#code-definitions)
+  - [String notes](#string-notes)     
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 
