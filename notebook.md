@@ -121,6 +121,8 @@ Uses the Dort programming language.
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|------------|
+| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
+| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 | variable     | A named container used to store a value that may change. | `var x = 5;` |Weight is 125  |title: 'TSA Portfolio'  |
 | constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |The 7 days in a week never changes.  |main.dart, const MyPortfolioApp ({super.key)  |
 | Data Type     | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` | Age vs Words in a sentence. |main.dart,bool,debugShowCheckedModeBanner:false  |
