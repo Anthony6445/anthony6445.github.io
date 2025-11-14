@@ -175,6 +175,8 @@ Uses the Dort programming language.
 - Final index in a String is length - 1;
 
 - ### String Methods Table
+  <img width="1223" height="475" alt="image" src="https://github.com/user-attachments/assets/47485fcf-98f1-465d-8e95-5b57c0cd1363" />
+
   
 
 
