@@ -6,4 +6,5 @@ Hello! I am AD. My goals are to increase better communication towards others as 
 <img width="183" height="275" alt="image" src="https://github.com/user-attachments/assets/1b4ceafe-b24a-4a99-af64-3a9bc9f713fb" />
 
 
+
 [CS2 Notebook](cs2-notebook.md) 
