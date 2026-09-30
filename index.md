@@ -11,3 +11,5 @@ _Current layout: `{{ page.layout }}`, using theme: `{{ site.theme }}`_
 Click here to learn more → [About Me](about.md)
 
 [Notebook](notebook.md)
+
+[CS2 Notebook](cs2-notebook.md) 
